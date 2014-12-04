@@ -34,7 +34,7 @@
   </property>
   <property>
     <name>dfs.namenode.rpc-address</name>
-    <value>hydrogen:8020</value>
+    <value>hydrogen:9000</value>
   </property>
   <property>
      <name>hadoop.tmp.dir</name>
