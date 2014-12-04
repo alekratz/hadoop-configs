@@ -29,7 +29,8 @@ export JAVA_HOME=${JAVA_HOME}
 # The jsvc implementation to use. Jsvc is required to run secure datanodes.
 #export JSVC_HOME=${JSVC_HOME}
 
-export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/etc/hadoop"}
+export HADOOP_PREFIX=$HOME/hadoop
+export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"$HADOOP_PREFIX/etc/hadoop"}
 
 # Extra Java CLASSPATH elements.  Automatically insert capacity-scheduler.
 #for f in $HADOOP_HOME/contrib/capacity-scheduler/*.jar; do
@@ -65,7 +66,7 @@ export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/etc/hadoop"}
 
 # Where log files are stored.  $HADOOP_HOME/logs by default.
 #export HADOOP_LOG_DIR=${HADOOP_LOG_DIR}/$USER
-export HADOOP_LOG_DIR=/home/$USER/hadoop-logs
+export HADOOP_LOG_DIR=$HADOOP_PREFIX/logs
 
 # Where log files are stored in the secure data environment.
 #export HADOOP_SECURE_DN_LOG_DIR=${HADOOP_LOG_DIR}/${HADOOP_HDFS_USER}
