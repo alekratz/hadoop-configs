@@ -33,6 +33,10 @@
      <value>1</value>
   </property>
   <property>
+    <name>dfs.namenode.servicerpc-address</name>
+    <value>hydrogen</value>
+  </property>
+  <property>
      <name>hadoop.tmp.dir</name>
      <value>/var/lib/hadoop-hdfs/cache/${user.name}</value>
   </property>
