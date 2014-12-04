@@ -30,7 +30,7 @@ export JAVA_HOME=${JAVA_HOME}
 #export JSVC_HOME=${JSVC_HOME}
 
 export HADOOP_PREFIX=$HOME/hadoop
-export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"$HADOOP_PREFIX/etc/hadoop"}
+export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"$HADOOP_PREFIX/etc/hadoop/conf"}
 
 # Extra Java CLASSPATH elements.  Automatically insert capacity-scheduler.
 #for f in $HADOOP_HOME/contrib/capacity-scheduler/*.jar; do
