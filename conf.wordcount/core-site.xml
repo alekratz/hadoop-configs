@@ -22,4 +22,8 @@
     <name>fs.defaultFS</name>
     <value>hdfs://hydrogen:8020</value>
   </property>
+  <property>
+     <name>hadoop.tmp.dir</name>
+     <value>/var/lib/hadoop-hdfs/cache/${user.name}</value>
+  </property>
 </configuration>
