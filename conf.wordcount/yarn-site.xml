@@ -44,10 +44,10 @@
      <name>yarn.application.classpath</name>
      <value>
         $HADOOP_CONF_DIR,
-        $HADOOP_COMMON_HOME/*,$HADOOP_COMMON_HOME/lib/*,
-        $HADOOP_HDFS_HOME/*,$HADOOP_HDFS_HOME/lib/*,
-        $HADOOP_MAPRED_HOME/*,$HADOOP_MAPRED_HOME/lib/*,
-        $HADOOP_YARN_HOME/*,$HADOOP_YARN_HOME/lib/*
+        $HADOOP_COMMON_CP/*,$HADOOP_COMMON_CP/lib/*,
+        $HADOOP_HDFS_CP/*,$HADOOP_HDFS_CP/lib/*,
+        $HADOOP_MAPRED_CP/*,$HADOOP_MAPRED_CP/lib/*,
+        $HADOOP_YARN_CP/*,$HADOOP_YARN_CP/lib/*
      </value>
   </property>
 </configuration>

@@ -80,7 +80,7 @@ export HADOOP_LOG_DIR=$HADOOP_PREFIX/logs
 
 # A string representing this instance of hadoop. $USER by default.
 #export HADOOP_IDENT_STRING=$USER
-export HADOOP_YARN_HOME=$HADOOP_PREFIX/share/hadoop/yarn
-export HADOOP_HDFS_HOME=$HADOOP_PREFIX/share/hadoop/hdfs
-export HADOOP_COMMON_HOME=$HADOOP_PREFIX/share/hadoop/common
-export HADOOP_MAPRED_HOME=$HADOOP_PREFIX/share/hadoop/mapreduce
+export HADOOP_YARN_CP=$HADOOP_PREFIX/share/hadoop/yarn
+export HADOOP_HDFS_CP=$HADOOP_PREFIX/share/hadoop/hdfs
+export HADOOP_COMMON_CP=$HADOOP_PREFIX/share/hadoop/common
+export HADOOP_MAPRED_CP=$HADOOP_PREFIX/share/hadoop/mapreduce
