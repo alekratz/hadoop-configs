@@ -58,7 +58,7 @@
 
   <property>
     <name>yarn.nodemanager.aux-services.mapreduce_shuffle.class</name>
-    <value>org.apache.mapred.ShuffleHandler</value>
+    <value>org.apache.hadoop.mapred.ShuffleHandler</value>
   </property>
 
 </configuration>
