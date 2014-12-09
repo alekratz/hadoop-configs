@@ -31,7 +31,7 @@
 
   <property>
     <name>yarn.log-aggregation-enable</name>
-    <value>false</value>
+    <value>true</value>
   </property>
 
   <property>
