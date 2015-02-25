@@ -24,6 +24,6 @@
   </property>
   <property>
      <name>hadoop.tmp.dir</name>
-     <value>/var/lib/hadoop-hdfs/cache/${user.name}</value>
+     <value>/home/hadoop/hadoop/var/lib/hadoop-hdfs/cache/${user.name}</value>
   </property>
 </configuration>
